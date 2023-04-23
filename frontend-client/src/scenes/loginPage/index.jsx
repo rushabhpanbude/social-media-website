@@ -12,8 +12,9 @@ const LoginPage = () => {
         p="1rem 6%"
         textAlign="center"
       >
-        <img src="../../homelogo.png" alt="Stack Media" width={300}/>
-
+        <Typography fontWeight="bold" fontSize="32px" color="primary">
+          Sociopedia
+        </Typography>
       </Box>
 
       <Box
@@ -24,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Stack Media, the Social Media for Coders!
+          Welcome to Social Media, the Social Media for Sociopaths!
         </Typography>
         <Form />
       </Box>

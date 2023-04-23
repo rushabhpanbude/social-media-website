@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Stack Media
+          Sociopedia
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
